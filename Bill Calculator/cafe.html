@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>GroveCafe.com</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="cafe.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    
+    <div class="top-nav-bar">
+        <div class="menu-box">
+            <div class="logo">
+                <div>Grove Cafe</div>
+            </div>
+        </div>
+        <div class="menu-bar">
+                <button id="button" onclick="chkOut();">Check Out</button>
+        </div>
+    </div>
+    <!--<img src="showcase.jpg" width="1020px" height="85px" id="showcase">-->
+    <h1 id="welcom">Welcome to the Grove Cafe Restaurants</h1>
+    <div class="container">
+
+        <div id="main-menu">
+            <div id="menu">
+                <h2 class="heading">Foods</h2>
+                <ol id="foods"></ol>
+                <h2 class="heading">Drinks</h2>
+                <ol id="drinks"></ol>
+            </div>
+        </div>
+
+        <div id="board">
+            <div id="Order">
+                <h1 style="text-align:center">Oder List</h1>
+                <div id="order1"></div><br>
+                <div id="order2"></div><br>
+                <div id="order3"></div><br>
+                <div id="order4"></div><br>
+            </div>
+            <button onclick="theOrder();" id="button2">Order Now</button>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="cafe.js"></script>
+</body>
+
+</html>

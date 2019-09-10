@@ -1,0 +1,162 @@
+body {
+	background:url(background.jpg)  no-repeat;
+	background-size: 1366px 698px;
+}
+
+/*nav bar*/
+.top-nav-bar {
+	width:1364px;
+	display: inline-flex;
+	height: 60px;
+	top: 0;
+	position: sticky;
+	border-bottom: 5px double gold;
+	border-radius: 0px 650px 50px 450px;
+	z-index: 2;
+}
+
+.menu-box {
+	float:left;
+	margin: 0px 876px 0px 8px;
+	
+}
+
+.logo {
+	font-weight: bold;
+	font-style: arial black;
+	font-size:45px;
+	padding: 1px;
+	margin: 0px 10px 13px 8px;
+}
+
+
+/*menu-bar of nav*/
+.menu-bar {
+	height: 75px;
+	float: right;
+	padding-bottom: 22px;
+	display: inline-flex;
+	float: right;	
+}
+
+#button {
+	border: 2px solid #272E5C;
+	margin-top: 14px;
+	padding: 6px 6px;
+	text-align: center;
+	background: #9E3764;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #fff;
+	font-weight:bold;
+	outline: none;
+}
+
+#button:hover {
+	background: #061218;
+	color: #fff;
+}
+
+#button:active {
+	transform: scale(0.9);
+
+}
+
+#welcom {
+	font-size:29px;
+	text-align:center;
+	font-family: century;
+	font-weight:bold;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+
+.container {
+	font-family: calibri;
+	font-size: 20px;
+	display: inline-flex;
+	margin:0px;
+	padding:0px;
+}
+
+#main-menu {
+	margin:35px 0px 0px 250px;
+}
+
+.heading {
+	font-weight: bold;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#foods {
+	height: 180px;
+	padding: 20px 5px 0px 30px;
+	background: rgba(225,255,255 ,0.6);
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#drinks {
+	height: 180px;
+	padding: 20px 5px 0px 35px;
+	background: rgba(225,255,255 ,0.6);
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#board {
+	display: block;
+	margin-left: 30px;
+}
+
+#Order {
+	height: 350px;
+	width: 300px;
+	margin-top: 78px;
+	margin-left: 20px;
+	font-size: 20px;
+	text-decoration: underline;
+	border: 1px solid black;
+	border-radius: 10px;
+	background: rgba(225,255,255 ,0.6);
+}
+
+#order1 {
+	padding-top: 30px;
+}
+
+#order1, #order2, #order3, #order4 {
+		text-align: center;
+}
+
+#order4 {
+	padding-top: 30px;
+}
+
+#button2 {
+	border: 1px solid #055B05;
+	margin-top: 14px;
+	margin-left: 20px;
+	padding: 8px 8px;
+	text-align: center;
+	background: #098E09;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 22px;
+	color: #fff;
+	font-weight:bold;
+	outline: none;
+}
+
+#button2:hover {
+	background: #107F10;
+	color: #fff;
+}
+
+#button2:active {
+	transform: scale(0.9);
+
+}
